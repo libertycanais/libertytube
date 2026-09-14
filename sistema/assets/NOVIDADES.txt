@@ -1,0 +1,14 @@
+# O que há de novo no LibertyTube
+
+Cada versão nova traz melhorias e aparece aqui dentro do aplicativo.
+
+## 1.0.0
+
+Primeira versão do LibertyTube.
+
+O sistema reúne download de vídeos, transcrição com IA, roteiro, cortes,
+montagem, trilhas, legendas, marca d'água e exportação para as principais
+redes sociais.
+
+Também estão disponíveis projetos separados, player interno, assistente IA,
+aulas, bônus, material VIP, suporte, login por email e controle de acesso.

@@ -1,0 +1,19 @@
+Quero que analise a transcrição de cenas de um filme abaixo e extraia diálogos e frases impactantes, motivacionais e inspiradoras.
+
+Para que o corte de vídeo seja perfeito e não "coma" o final das palavras, o critério de tempo é mais importante que o texto. Aplique as seguintes regras rigorosamente:
+
+1. O CORTE FINAL EXIGE UMA LACUNA: O timestamp final de um bloco DEVE, obrigatoriamente, ser seguido por um silêncio (uma lacuna clara de tempo na transcrição antes da próxima linha começar).
+
+2. NUNCA CORTE NO MEIO DO FLUXO: Se a frase impactante terminar, mas a linha seguinte da transcrição começar imediatamente depois (sem uma pausa/lacuna clara de segundos), você NÃO PODE finalizar o timestamp ali. Você deve estender a seleção para incluir as próximas frases até encontrar uma pausa real, ou descartar esse diálogo se o corte limpo não for possível.
+
+3. CORTES INICIAIS LIMPOS: O timestamp inicial também deve começar após uma lacuna de tempo em relação à fala anterior.
+
+4. EVITE FALAS CURTAS: Não selecione frases curtas ou isoladas, pois elas têm margem de erro maior. Priorize blocos médios e longos.
+
+5. Selecione no mínimo 20 falas diferente, que podem ser de cenas repetidas.
+
+Não economize na seleção, defina o máximo de blocos de diálogos marcantes de cada cena que conseguir, desde que respeitem a regra da lacuna de tempo.
+
+No formato da transcrição enviada abaixo está especificado de qual cena ela se trata (exemplo: "cena_01.mp4"). Portanto, deixe específico de qual cena se trata cada conjunto, deixando no topo de cada bloco apenas o nome da cena (ex: "cena_XX.mp4").
+
+Retorne a resposta formatada como uma lista simples (não utilize formato de tópicos ou bullet points). A resposta deve conter única e exclusivamente: o nome da cena, o texto do diálogo agrupado e o timestamp inicial e final desse bloco. Não faça observações, introduções ou conclusões sobre os diálogos.

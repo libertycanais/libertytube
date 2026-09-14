@@ -1,0 +1,7 @@
+{
+  "url": "https://seu-projeto.supabase.co",
+  "anon_key": "sua-chave-anon-do-supabase",
+  "cache_horas": 12,
+  "max_dias_offline": 5,
+  "max_dias_sessao": 15
+}

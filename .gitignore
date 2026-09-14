@@ -1,0 +1,29 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local runtime data and generated media
+projetos/
+*.tmp
+*.part
+*.log
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
+# Local credentials and sessions
+sessao.json
+preferencias.json
+backend.json
+!sistema/assets/backend.json
+!sistema/backend.json.example
+
+# Distribution artifacts
+*.zip
+dist/
+build/

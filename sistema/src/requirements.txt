@@ -1,0 +1,13 @@
+# Dependências do LibertyTube 1.0
+# O instalador cuida de tudo isso sozinho — esta lista serve pra
+# instalar na mão (ou reparar) com:
+#     pip install -r requirements.txt
+
+yt-dlp>=2024.1.1          # baixar vídeos e playlists do YouTube
+faster-whisper>=1.0.0     # transcrição (leve, roda na CPU)
+pillow>=10.0.0            # miniaturas e logo
+opencv-python>=4.8.0      # "seguir o rosto" nos cortes verticais
+
+# Não listados aqui porque não são pacotes Python:
+#   FFmpeg  — baixado pelo instalador (vídeo e áudio)
+#   Python 3.11 — instalado pelo instalador no Windows
